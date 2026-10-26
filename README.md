@@ -12,11 +12,13 @@
 ## サンプルファイル（`sample/`）
 
 | ファイル | 内容 |
-|---|---|
-| `app.log` | 29行のシステムログ（ERRORが3件、WARNが2件含まれる） |
-| `config.ini` | 設定ファイル |
-| `main.c` | C言語のサンプル（ネストした括弧あり） |
-| `util.c` / `util.h` | `main.c` から呼ばれる関数の定義 |
+| :--- | :--- |
+| **app.log** | 29行のシステムログ（ERRORが3件、WARNが2件含まれる） |
+| **config.ini** | 設定ファイル |
+| **main.c** | C言語のサンプル（ネストした括弧あり） |
+| **util.c / util.h** | main.c から呼ばれる関数の定義 |
+| **sample.txt** | 見出し付きのテキスト（第2回のアウトライン解析用） |
+| **index.html** | 簡単なHTML（第2回のアウトライン解析用） |
 
 ## 連載の構成
 ```
@@ -27,7 +29,9 @@ sakura-editor-learning/
     ├── config.ini
     ├── main.c
     ├── util.c
-    └── util.h
+    ├── util.h
+    ├── sample.txt
+    └── index.html
 ```
 
 | 回 | テーマ | 主な機能 |
